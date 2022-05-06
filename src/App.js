@@ -11,8 +11,6 @@ function App() {
   const [match, setMatch] = useState("");
   const [data, setData] = useState([]);
 
-  const arr = ["first", "second", "third", "fourth", "fifth"];
-
   const changeWord = (e) => {
     setWord(e.target.value);
   };

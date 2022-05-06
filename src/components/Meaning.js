@@ -65,7 +65,7 @@ const Meaning = ({ word, meaning, match, data: { phonetics } }) => {
       >
         Synonyms for <i>{word}</i>
       </Text>
-      {meaning.map(({ antonyms, partOfSpeech, definitions, synonyms }, ind) => (
+      {meaning.map(({synonyms }, ind) => (
         <Text
           key={ind}
           color="#303336"
